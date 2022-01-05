@@ -1,0 +1,42 @@
+body {
+    
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("https://wallpaperbat.com/img/74104-2k-hacker-matrix-code-wallpaper-wallpaper-and-art-mine.png");
+}
+
+.container {
+    border: solid 2px springgreen;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 10px;
+}
+.pw {
+  padding-left: 3px;
+}
+
+h1 {
+    margin-left: 100px;
+}
+
+#submit {
+    margin-top: 55px;
+    margin-left: 30px;
+    background: none;
+    color:white;
+    border-radius: 7px;
+    outline: none;
+    border: solid 2px springgreen;
+    cursor: pointer;
+    font-size: 20px;
+} 
+
